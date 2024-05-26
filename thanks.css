@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+   text-decoration: none;
+}
+
+
+.thank
+{ color: black;
+	font-size:75px;
+	font-family: imapct;
+  text-align: center;
+
+}
+.back
+{
+	margin-left: 250px;
+}
+
+.home
+{ margin-left: 540px;
+	height: 77px;
+	width: 140px;
+	padding: 20px;
+    border: 10px solid black;
+    border-radius:25px ;
+    	padding: 10px;
+  	font-size: 60px;
+  	color: black;
+  	
+     font-family:impact;
+      transition: o.6sec;
+ }
+
+.home:hover
+  {
+  	color: white;
+   background-image: url(skin.jpg);
+ }

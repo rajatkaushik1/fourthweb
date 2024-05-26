@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: white;
+	
+}
+
+
+.back
+{
+	height:649px;
+	width:100% ;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(bg5.jpg);
+	background-position: center;
+	background-size: cover;
+}
+ .topbar
+ {
+ 	height:200px;
+	width:100% ;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7))
+}
+
+.gap
+{
+	height: 25px;
+}
+
+
+.logo
+{
+	
+	margin-left: 20px;
+	font-size: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: white;
+	font-family:cursive;
+}
+
+.logofont
+{
+	margin-top: 65px;
+}
+
+.blog
+{
+	height:  77px;
+	width: 120px;
+	padding: 20px;
+    border: 10px solid white;
+    border-radius:25px ;
+    	padding: 10px;
+  	font-size: 60px;
+  	color: white;
+     font-family:impact;
+ }
+
+.about
+{
+	height: 77px;
+	width: 240px;
+	padding: 20px;
+    border: 10px solid white;
+    border-radius:25px ;
+    	padding: 10px;
+  	font-size: 60px;
+  	color: white;
+     font-family:impact;
+ }
+
+ .align
+ {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-evenly;
+ }
+
+ .blog,.about
+ {
+ 	margin-top: 30px;
+ 	transition: 0,5s;
+ }
+
+ .blog:hover
+ {
+   background-image: url(skin.jpg);
+ }
+
+ .about:hover
+ {
+   background-image: url(skin.jpg);
+ }
+
+.content
+{
+  margin-top: 30px;
+  color: white;
+  font-family: impact;
+  font-size: 80px;
+  text-align: center;
+}
+
+
+
+.donate
+{
+
+	height: 100px;
+	width: 20%;
+	border: 10px solid white;
+	border-radius: 25px;
+	background-image: linear-gradient(rgba(4, 253, 0, 0.8),rgba(245, 253, 0, 1.0));
+	
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+	 font-size: 80px;
+	 font-family: impact;
+	 margin-left: 40%;
+	 transition: 0.6s;
+
+}
+	
+	
+.donate:hover
+{background-image: linear-gradient(rgba(0, 255, 226, 1),rgba(245, 253, 0, 1.0));	
+}

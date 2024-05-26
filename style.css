@@ -1,0 +1,193 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: content-box;
+}
+
+.bg
+{
+height:649px;
+width: 100%px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(bg2.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.banner
+{
+	height: 200px;
+	width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  position: fixed;
+}
+.logo{
+	margin:20px;
+	height: 200px;
+	width: 100%;
+	margin-left: 300px;
+	position:fixed;
+	}
+
+.logotext
+{height: 200px;
+	width: 100%;
+	color:white;
+	font-size: 110px;
+	font-family: cursive;
+	position:fixed;
+	 }
+
+.content
+{ font-size: 100px;
+	color: white;
+	text-align: center;
+	font-family: impact;
+}
+.space
+{height: 200px;
+
+}
+
+.bg2
+{
+	margin-top: 82px;
+	height:649px;
+width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(back.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.home
+{ 
+	margin-left: 10%;
+	text-align: center;
+	height: 100px;
+	width: 80%;
+	border: 10px solid white;
+	border-radius: 25px;
+    transition: 0.6s;
+    padding: 50spx;
+	color: white;
+	font-family: impact;
+	font-size: 90px;
+}
+
+
+
+.blog
+{ 
+  margin-top: 26px;
+ margin-left: 10%;
+	text-align: center;
+	height: 100px;
+	width: 80%;
+	border: 10px solid white;
+	border-radius: 25px;
+    transition: 0.6s;
+    padding: 50spx;
+	color: white;
+	font-family: impact;
+	font-size: 90px;
+}
+
+
+ 
+ .donate
+{  margin-top: 26PX;
+	margin-left: 10%;
+	text-align: center;
+	height: 100px;
+	width: 80%;
+	border: 10px solid white;
+	border-radius: 25px;
+    transition: 0.6s;
+    padding: 50spx;
+	color: white;
+	font-family: impact;
+	font-size: 90px;
+}
+
+
+.about
+{    margin-top: 26px;
+margin-left: 10%;
+	text-align: center;
+	height: 100px;
+	width: 80%;
+	border: 10px solid white;
+	border-radius: 25px;
+    transition: 0.6s;
+    padding: 50spx;
+	color: white;
+	font-family: impact;
+	font-size: 90px;
+}
+
+
+.home:hover
+{
+  background-image: url(skin.jpg);
+  background-position: center;
+  background-size:cover;
+
+}
+
+.donate:hover
+{
+  background-image: url(skin.jpg);
+  background-position: center;
+  background-size:cover;
+
+}
+
+.about:hover
+{
+  background-image: url(skin.jpg);
+  background-position: center;
+  background-size:cover;
+
+}
+.blog:hover
+{
+  background-image: url(skin.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+html
+{ 
+ scroll-behavior: smooth; 
+}
+
+.end
+{
+	background-color: black;
+	height: 400px;
+	width: 100%;
+}
+.note
+{height: 400px;
+	width: 100%;
+	font-family: cursive;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+.credit
+{height: 400px;
+	width: 100%;
+	font-family: impact;
+	color: white;
+	font-size: 75px;
+	text-align:center;
+}
+
+.lastgap
+{
+	height: 20px;
+}
+

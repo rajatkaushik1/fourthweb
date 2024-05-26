@@ -1,0 +1,149 @@
+*{
+	font-family: impact;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.back
+{
+	height:649px;
+    width: 100%px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(back.jpg);
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.banner
+{
+	height: 200px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ;
+
+}
+ 
+.logo
+ {
+ 	margin-top: 20PX;
+	margin-left: 50px;
+ }
+
+ .donate
+ { margin-top: 50px;
+     height: 75px;
+     width: 180px;
+     border: 10px solid white;
+     border-radius:25px ;
+ }
+
+  .items
+  {
+  	display: flex;
+  	justify-content: space-evenly;
+  }
+
+  .donate
+  {
+  	padding: 10px;
+  	font-size: 60px;
+  	color: white;
+  }
+
+  .logo
+  { 
+  	font-family: cursive;
+  	font-size: 70px;
+    color: white;
+  }
+
+  .about
+   { 
+   	 margin-top: 50px;
+     height: 75px;
+     width: 240px;
+     border: 10px solid white;
+     border-radius:25px;
+   	padding: 10px;
+  	font-size: 60px;
+  	color: white;
+ }
+
+ .donate
+ {
+ 	
+ 	transition: 0.4s;
+ }
+
+ .about
+ {
+ 	margin-left: 50px;
+ }
+
+ .donate:hover
+ {
+   background-image: url(skin.jpg);
+ }
+
+ .about:hover
+ {
+   background-image: url(skin.jpg);
+ }
+
+
+.content
+{
+ text-align: center;	
+}
+
+.back2
+{
+    height: 649px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(bg2.jpg);
+}
+
+
+.content2
+{
+ color: white;
+ font-size: 80px;
+ text-align: center;
+}
+
+.back3
+{
+    height: 649px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(bg3.jpg);
+    background-position: center;
+    background-size: cover;
+	
+}
+.back4
+{
+    height: 800px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(bg4.png);
+    background-position: center;
+    background-size: cover;
+	
+}
+
+.back5
+{
+    height: 800px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(bg5.jpg);
+    background-position: center;
+    background-size: cover;
+	
+}
+
+.gap
+{
+	 height: 75px;
+     width: 240px;
+}
